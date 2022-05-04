@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  background-image: url("images/neon_night.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-family: 'Zen Maru Gothic', sans-serif;
+
+}
+
+ul{
+  list-style-type: none;
+}
+
+.lisa-profile-photo {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+h1, h2, h3 {
+  font-family: 'Zen Tokyo Zoo', cursive;
+  line-height: 1;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(4px);
+  background-position: center;
+  background-size: 100px;
+  border-radius: 100px;
+  padding: 50px;
+  padding-bottom: 5px;
+  margin: 50px;
+ }
+
+.header {
+  line-height: 0.5;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+.header p {
+  font-size: 10px;
+  padding-bottom: 20px;
+}
+.content{
+  line-height: 0.8;
+  padding: 20px;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content-button-friend{
+  padding: 20px;
+  font-size: 14px;
+}
+
+.white-button{
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.362);
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.white-button:hover{
+  color: rgb(255, 0, 247);
+}
+
+.white-button:after{
+  content:"Become Lisa's friend :)";
+  display: block;
+}
+.white-button:active:after{
+  content:"She doesn't want to be your friend :(";
+  display: block;
+}
+
+ footer {
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(4px);
+  background-position: center;
+  background-size: 100px;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 50px;
+  font-size: 14px;
+  text-align: center;
+ }
+
+a {
+  color: rgb(255, 255, 255);
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+ a:hover {
+   color: rgb(255, 0, 247);
+}
+
+#site-web {
+  letter-spacing: normal;
+}
+
+.icons > ul {
+  display: inline-block;
+  padding: 0;
+  list-style: none;
+}
